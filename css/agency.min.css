@@ -230,7 +230,9 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
-
+.container {
+  max-width: 2000px;
+}
 
 * {
     box-sizing: border-box;
@@ -242,6 +244,9 @@ header.masthead .intro-text .intro-heading {
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
     padding: 0 4px;
+  
+  margin-right: -120px;
+  margin-left: -120px;
 }
 
 /* Create three equal columns that sits next to each other */
